@@ -17,5 +17,5 @@ def vector_search(query, k=5):
     print([D, I])
     return [docs[i] for i in I[0]]
 
-RES = vector_search("cat", 2)
+RES = vector_search("cat", 3)
 print(RES)
